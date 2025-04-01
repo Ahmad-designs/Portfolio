@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="utf-8">
+  <title>Ahmad | UX Designer</title>
+   <!-- Viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon and Touch Icons-->
+  <link href="img/favicon.png" rel="icon" />
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <meta name="msapplication-TileColor" content="#766df4">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Vendor Styles-->
+  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+  <link rel="stylesheet" media="screen" href="vendor/nouislider/dist/nouislider.min.css" />
+  <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
+  <!-- Main Theme Styles + Bootstrap-->
+
+  <link rel="stylesheet" media="screen" href="css/theme.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+ 
+  <style>
+    .main-container{
+      width: 100%; display: flex; max-width: 1001px; margin: 0 auto;
+    }
+    @media screen and (max-width:992px) {
+      .main-container{
+        flex-direction: column !important;
+      }
+    }
+  </style>
+
+  </head>
+<!-- Body-->
+
+<body>
+
+  <main class="page-wrapper">
+    <!-- Navbar-->
+    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-scroll-header>
+      <div class="main-container">
+        <div class="container">
+          <div class="logo-wrapper">
+            <div class="logo-header">
+              <a href="#">
+                <img src="img/New-Logo.png">
+              </a>
+            </div>
+            
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
+          <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">
+            <!-- Demos switcher-->
+  
+            <li class="nav-item"><a class="nav-link " href="index.html">
+                Home <span class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y border-end"
+                  style="width: 1px; height: 30px;"></span></a>
+            </li>
+            <!-- Menu items-->
+              <li class="nav-item active"><a class="nav-link" href="ux.html"></i>
+                Work</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Page content-->
+
+    <div class="container mt-5 text-center">
+      <img class="mt-5" src="img/QCRM-hero.png">
+    </div>
+
+    <section id="overview" class="mx-2">
+      <div class="container head">
+        <div class="overview">
+          <h3 class="mb-0">Project Overview</h3>
+          
+          <p class="text-dark fs-lg mb-5">A CRM (Customer Relationship Management) system that 
+            helps insurance companies to track, manage, and convert leads more effectively.</p>
+            
+           <h3 class="mb-0">Objective</h3>
+           <h5>The primary objective of this project was to design a CRM system that would:</h5>
+           <ul class="text-dark fs-lg">
+
+            <li>Streamline the lead tracking and management process to enable agents to handle leads efficiently without being overwhelmed.</li>
+            <li>Offer managers and team leaders a comprehensive view of lead data, agent performance, and conversion metrics.</li>
+            <li>Ensure that agents could easily prioritize and follow up on high-value leads to increase sales conversions.</li>
+            <li class="mb-5">Enable detailed reporting and analytics to monitor lead status and agent performance.</li>
+           </ul>
+
+
+          <h3 class="mb-0">Research & Analysis</h3>
+          <h5>Stakeholder Workshop</h5>
+          <p class="text-dark fs-lg">We conducted workshops involving the stakeholders and insurance agents to understand their pain points with existing CRM systems. 
+            <br>Key insights from the research included:</p>
+
+                <ul>
+                  <li class="text-dark fs-lg"><b>Information Overload :</b> Agents often struggled with large amounts of irrelevant data in existing CRM systems. 
+                    They needed to focus on the most important information, like lead status, client interaction history, and follow-up dates. </li> 
+
+                  <li class="text-dark fs-lg"><b>Lead Prioritization :</b> Difficulty in identifying high-priority leads and managing follow-ups effectively. </li>
+
+                  <li class="text-dark fs-lg"><b>Data Overload :</b> Agents found it overwhelming to deal with multiple fields and input requirements.</li>
+                      
+                  <li class="text-dark fs-lg mb-5"><b>Customizable Dashboards :</b> A need for personalized dashboards to see relevant information at a glance.</li>  
+                </ul>
+
+                <h5>Competitor Analysis</h5>
+                <p class="text-dark fs-lg mb-5">We analyzed existing CRM platforms in the market, such as Salesforce, Zoho, and Pipedrive, focusing on how well they 
+                  served the insurance industry. While these CRMs were highly customizable, they often overwhelmed users with unnecessary features. </p>   
+                  
+        </div>  
+      </div>
+    </section>
+    <section class="mx-2">
+      <div class="container">
+        <h5 class="mb-0">Personas / Users</h5>
+        <p class="mb-lg-4 fs-lg text-dark">Based on the research, we developed two key personas to guide our design process : </p>
+        <ul>
+        <li class="text-dark fs-lg"><b>The Admin :</b> Requires an overview of the team’s performance, the ability to monitor lead status, asignment of leads, and tools to track agent productivity. </li> 
+        <img class="mb-5" src="img/Sales-Manager.jpg">
+          
+        <li class="text-dark fs-lg"><b>The Tele Caller  :</b> Focuses on conversion of leads into customer, needing detailed analytics to make informed decisions and optimize sales strategies. </li>
+        <img src="img/Meera.png">
+        </ul>       
+      </div>
+    </section>
+
+    <section class="my-5 mx-2">
+      <div class="container">
+        <h5 class="mb-2">Mind Map</h5>
+        <p class="text-dark fs-lg">To address the needs of these personas, we created mind map to define goals and features to include after many brainstorming sessions: </p>
+          <img class="mb-4" src="img/Mind Map.png">
+      </div>
+    </section>
+
+    <section class="mx-2">
+      <div class="container">
+        <h5 class="mb-2">User Flow</h5>
+        <p class="text-dark fs-lg my-2">After defining the goals and deciding on the features to include, 
+          We went on to establish the information architecture of the website by using a User Flow. 
+          We built an ideal workflow based on our two different types of users: Admin and Tele Caller.</p>
+        <img src="img/QCRM-Flow.png">
+      </div>
+    </section>
+
+    <section class="my-5 mx-2">
+      <div class="container">
+        <h3 class="mb-2">UI Design</h3>
+        <h5>Design System Overview</h5>
+        <p class="text-dark fs-lg mt-2">A dedicated design system was implemented to maintain visual and functional consistency across the CRM platform. This design system included a comprehensive set of design guidelines for typography, icons, color palette, components, and layout structures, ensuring that the platform delivered a cohesive experience, optimized usability, and an intuitive user interface.</p>
+          <img src="img/style-guide.png">
+      </div>
+    </section>
+
+    <section class="my-5 mx-2">
+      <div class="container">
+        <h3 class="mb-2">High-Fidelity Designs & Key Features</h3>
+        <h5>Dashboard</h5>
+        <ul>
+          <li class="text-dark fs-lg">A user-friendly dashboard that shows real-time performance metrics, including lead conversion rates, agent performance, and sales trends.</li> 
+          <li class="text-dark fs-lg">Visual reports with charts, tables, and graphs to give users an overview of lead performance and statistics.</li> 
+        </ul>
+        <img class="mb-5" src="img/admin_dashboard.png"> 
+
+        <h5>Lead Management</h5>
+        <ul>
+          <li class="text-dark fs-lg">A centralized view of all leads, with the ability to filter, sort, and search leads based on various parameters (priority, lead type, lead source, etc.).</li> 
+          <li class="text-dark fs-lg">User (admin) can import leads as csv file to upload bulk leads as well as can add single lead manually and assign leads to the tele-callers.</li> 
+        </ul>
+        <img class="mb-5" src="img/Lead Management.jpg"> 
+
+        <h5>Lead Details and Status Tracking</h5>
+        <ul>
+          <li class="text-dark fs-lg">The step indicator helps agents understand lead status at a glance, showing stages like "New," "Contacted," "Qualified," "Proposal Sent," and "Closed" or "Lost." This linear, sequential design ensures the agent can see progression, gaps, and next steps for each lead.</li> 
+          <li class="text-dark fs-lg">Comprehensive and user-friendly sections and tabs are designed for lead details which help users find data easyly. </li> 
+        </ul>
+        <img class="mb-5" src="img/lead-details.png"> 
+
+        <h5>Call Initiation & Lead Information Logging</h5>
+        <ul>
+          <li class="text-dark fs-lg">This page integrates call initiation with real-time data entry, allowing agents to document lead information, inquiries, and preferences directly during the conversation.</li> 
+          <li class="text-dark fs-lg">While on the call, users can record lead responses that reduces the need for post-call data entry. </li> 
+        </ul>
+        <img class="mb-5" src="img/disposition.png"> 
+
+
+      </div>
+    </section>
+
+
+    <section class="my-5 mx-2">
+      <div class="container">
+        <h3 class="mb-2">Usability Testing</h3>
+        <h5>Testing Approach</h5>
+        <p class="text-dark fs-lg">We conducted usability testing with insurance agents and stakeholders using an interactive prototype. The testing process included:</p>
+        <ul>
+          <li class="text-dark fs-lg"> <b>Task Completion : </b> Agents were asked to complete specific tasks such as adding a lead, assigning lead, follow-up, and viewing lead performance reports.</li> 
+          <li class="text-dark fs-lg"> <b>Feedback Sessions : </b> We held one-on-one feedback sessions to capture their thoughts on the interface, pain points, and suggestions for improvement.</li> 
+        </ul>
+
+        <h5>Key Finding</h5>
+        <p class="text-dark fs-lg">Agents wanted more robust filtering options (e.g., filtering by lead source, date added, or last contact). We introduced advanced filtering options in the final design.</p>
+
+      </div>
+    </section>
+
+
+    <section class="my-5 mx-2">
+      <div class="container">
+        <h3 class="mb-2">Challenges and Learnings</h3>
+        <h5>The Challenge:</h5>
+        
+        <ul>
+          <li class="text-dark fs-lg"> <b>Balancing Simplicity with Functionality : </b> Striking the right balance between providing enough features and keeping the interface simple was challenging. Some agents wanted more features, while others preferred minimalism.</li> 
+        </ul>
+
+        <h5>Key Learnings</h5>
+        <ul>
+          <li class="text-dark fs-lg"> <b>User-Centric Design : </b> Continuous feedback from end-users (agents and managers) was critical to refining the design. Real-world usage patterns often differ from initial assumptions.</li> 
+          <li class="text-dark fs-lg"> <b>Iterative Design Process : </b> Iteration based on feedback allowed us to identify issues early and address them, leading to a better final product.</li> 
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="my-5 mx-2">
+      <div class="container">
+        <h3 class="mb-2">Conclusion</h3>
+        <p class="text-dark fs-lg">The CRM lead management system delivered an efficient, user-friendly platform tailored to the specific
+           needs of insurance agents. By focusing on simplifying lead tracking, improving follow-up processes, and providing actionable insights 
+           through analytics, the system improved agent productivity and lead conversion rates. The project highlighted the importance of
+          user-centered design and the value of iterative feedback in delivering a product that meets real-world needs.</p>
+
+      </div>
+    </section>
+
+
+
+    <footer class="footer bg-secondary pt-5">
+      <div class="container">
+      <div class="text-center fs-sm pb-5"> <a href='#'
+        class='d-inline-block nav-link p-0' target='_blank' rel='noopener'>&copy; Mohd. Ahmad Raza |</a> Product Designer</div>
+      </div>
+      <hr>
+    </footer>
+  </main>
+
+  
+  <!-- Vendor scrits: js libraries and plugins-->
+  <script type="text/javascript"
+    src="../../cdn.jsdelivr.net/gh/bbbootstrap/libraries%40main/jquery.smartWizard.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+  <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="vendor/nouislider/dist/nouislider.min.js"></script>
+  <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+  <!-- Main theme script-->
+  <script src="js/theme.min.js"></script>
+</body>
+</html>
